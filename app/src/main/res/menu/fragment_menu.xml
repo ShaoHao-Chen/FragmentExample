@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recordPage"
+        android:title="Record"/>
+    <item
+        android:id="@+id/homePage"
+        android:title="Home" />
+    <item
+        android:id="@+id/settingPage"
+        android:title="Setting" />
+</menu>

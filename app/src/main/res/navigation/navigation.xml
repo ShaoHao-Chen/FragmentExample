@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.shao.fragmentexample.Fragment.HomePage"
+        android:label="HomePage" />
+    <fragment
+        android:id="@+id/recordPage"
+        android:name="com.shao.fragmentexample.Fragment.RecordPage"
+        android:label="RecordPage" />
+    <fragment
+        android:id="@+id/settingPage"
+        android:name="com.shao.fragmentexample.Fragment.SettingPage"
+        android:label="SettingPage" />
+</navigation>
